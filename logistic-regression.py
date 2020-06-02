@@ -6,6 +6,6 @@ import pandas as pd
 # How to use secrets manager
 # https://docs.aws.amazon.com/code-samples/latest/catalog/python-secretsmanager-secrets_manager.py.html
 
-initial_matrix = pd.read_csv('s3n://srirambaskaraniristestbucket/iris.csv') # 'Body' is a keyword
+initial_matrix = pd.read_csv('s3n://srirambaskaraniristestbucket/iris.csv')
 
 print initial_matrix
